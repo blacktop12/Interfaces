@@ -7,6 +7,6 @@ public class BackButtonScript2 : MonoBehaviour
 {
     public void backToPrevScene()
     {
-        SceneManager.LoadScene("Scene2");
+        SceneManager.LoadScene("Datos");
     }
 }

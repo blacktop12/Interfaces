@@ -10,16 +10,43 @@ public class SceneSelectScript : MonoBehaviour
         switch (this.gameObject.name)
         {
             case "BttnComencemos":
-            SceneManager.LoadScene ("Scene1");
+            SceneManager.LoadScene ("Informacion");
             break;
             case "BttnInfo":
-            SceneManager.LoadScene ("Scene2");
+            SceneManager.LoadScene ("Datos");
             break;
             case "BttnPf":
-            SceneManager.LoadScene ("Scene3");
+            SceneManager.LoadScene ("Preguntas");
             break;
             case "BttnModel3D":
-            SceneManager.LoadScene ("Scene4");
+            SceneManager.LoadScene ("Modelo3D");
+            break;
+            case "LavLG":
+            SceneManager.LoadScene ("Datos1");
+            break;
+            case "LavSamsung":
+            SceneManager.LoadScene ("Datos1");
+            break;
+            case "LavMabe":
+            SceneManager.LoadScene ("Datos1");
+            break;
+            case "B1":
+            SceneManager.LoadScene ("Datos2");
+            break;
+            case "B2":
+            SceneManager.LoadScene ("Datos3");
+            break;
+            case "Bienvenidos":
+            SceneManager.LoadScene ("Start");
+            break;
+            case "Info":
+            SceneManager.LoadScene ("Informacion");
+            break;
+            case "Dat":
+            SceneManager.LoadScene ("Datos");
+            break;
+            case "Faq":
+            SceneManager.LoadScene ("Preguntas");
             break;
         }
     }
